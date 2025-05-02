@@ -1,0 +1,3 @@
+.hero {
+    @apply min-h-[80dvh] flex md:flex-row flex-col-reverse py-10 w-[90%] mx-auto items-center child:space-y-5 justify-between child:max-w-screen-sm md:w-full gap-y-6
+}
