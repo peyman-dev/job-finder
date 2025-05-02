@@ -1,5 +1,5 @@
-import { Briefcase, Building2, UsersRound } from "lucide-react";
-import { PopularVacancy } from "../types/types";
+import { BadgeCheck, Briefcase, Building2, CloudUpload, ScanSearch, UserRoundPlus, UsersRound } from "lucide-react";
+import { HowItWorkStepType, PopularVacancy } from "../types/types";
 
 export const features = [
     {
@@ -45,3 +45,10 @@ export const popularVacancies: PopularVacancy[] = [
     { title: "مدیر فناوری اطلاعات", value: 50963 },
     { title: "تحلیلگر تحقیقات عملیاتی", value: 16827 },
 ];
+
+export const howItWorksSteps: HowItWorkStepType[] = [
+    { title: "ایجاد حساب کاربری", description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.", icon: <UserRoundPlus />},
+    { title: "بارگذاری رزومه/سی‌وی", description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.", icon: <CloudUpload /> },
+    { title: "یافتن شغل مناسب", description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.", icon: <ScanSearch /> },
+    { title: "درخواست شغل", description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.", icon: <BadgeCheck /> },
+  ];

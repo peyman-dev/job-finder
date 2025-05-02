@@ -12,7 +12,7 @@ const page = () => {
         <Features />
       </Container>
       <PopularVacanciesList />
-      <Container>
+      <Container className={"md:h-[522px] flex items-center justify-center"}>
         <HowItWorks />
       </Container>
     </>
